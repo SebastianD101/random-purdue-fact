@@ -51,7 +51,8 @@ function random() {
     var randomFact = facts[randomNumber];
     temp.push(randomNumber);
     document.getElementById("fact").innerHTML = randomFact;
-    document.getElementById("hint").style.display = "none";
+    document.getElementById("hint1").style.display = "none";
+    document.getElementById("hint2").style.display = "none";
 }
 
 document.onkeydown = checkKey;
@@ -60,8 +61,18 @@ function checkKey(e) {
 
     e = e || window.event;
 
-    if (e.keyCode == '37') {
+    if (e.keyCode == '38') {
+        var randomNumber = Math.floor(Math.random() * facts.length);
+        var randomFact = facts[randomNumber];
+        temp.push(randomNumber);
+        document.getElementById("fact").innerHTML = randomFact;
+        document.getElementById("hint1").style.display = "none";
+        document.getElementById("hint2").style.display = "none";
+    } else if (e.keyCode == '37') {
         var randomFact = facts[temp[temp.length - 2]];
+        document.getElementById("fact").innerHTML = randomFact;
+    } else if (e.keyCode == '39') {
+        var randomFact = facts[temp[temp.length - 1]];
         document.getElementById("fact").innerHTML = randomFact;
     }
 
