@@ -44,8 +44,25 @@ const facts = [
     "Iron Key is a secret society at Purdue and was founded in 1910 to serve Purdue. Membership is anonymous, and the society is composed of all seniors",
     "In the '60s, students uprooted the Ross-Ade uprights after home victories and toss them in the Wabash. As a result, uprights were specially designed to prevent this."];
 
+var temp = [];
+
 function random() {
     var randomNumber = Math.floor(Math.random() * facts.length);
     var randomFact = facts[randomNumber];
+    temp.push(randomNumber);
     document.getElementById("fact").innerHTML = randomFact;
+    document.getElementById("hint").style.display = "none";
+}
+
+document.onkeydown = checkKey;
+
+function checkKey(e) {
+
+    e = e || window.event;
+
+    if (e.keyCode == '37') {
+        var randomFact = facts[temp[temp.length - 2]];
+        document.getElementById("fact").innerHTML = randomFact;
+    }
+
 }
