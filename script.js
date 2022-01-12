@@ -40,9 +40,18 @@ const facts = [
     "John Purdue’s final resting place can be found by the fountain east of University Hall, marked by a blank headstone",
     "Cary Quad has a 5th floor that is primarily used as storage", 
     "There used to be a reflecting pool outside of the Union, directly in front of the current “Purdue” hedges. It was replaced with the current grass area in 2004",
-    "Purdue seniors began decorating and wearing yellow corduroy pants with their organizational and club involvement. This tradition largely ended in 1970, with Mortar Board and Reamer Club being the only two organizations to carry on the tradition to this day",
+    "Purdue seniors began decorating and wearing yellow corduroy pants with their organizational and club involvement, the Mortar Board and Reamer Club being the only two organizations to carry on the tradition to this day",
     "Iron Key is a secret society at Purdue and was founded in 1910 to serve Purdue. Membership is anonymous, and the society is composed of all seniors",
-    "In the '60s, students uprooted the Ross-Ade uprights after home victories and toss them in the Wabash. As a result, uprights were specially designed to prevent this."];
+    "In the '60s, students uprooted the Ross-Ade uprights after home victories and toss them in the Wabash. As a result, uprights were specially designed to prevent this.",
+    "Purdue has the first university-owned airport in the U.S",
+    "Purdue is the first university in the world to offer a 4-year bachelor’s degree in Aviation",
+    "Purdue was recently recognized by the Wall Street Journal/Times Higher Education as the #4 university in the country in terms of student engagement",
+    "Purdue University has the lowest predominant room and board rate for Big 10 institutions for the 2021-22 academic year.",
+    "University Residences is currently housing over 15,250 students, representing Purdue's largest on-campus population ever.",
+    "Boiler Gold Rush welcomed the largest-ever Purdue freshman class with over 8,400 students participating in the program",
+    "For the 2020-21 academic year, Purdue offered over 1,000 student organizations.",
+    "Purdue students drink 227,441 gallons of milk and juice annually",
+    "In 1896, Math Professor Clarence Abiathar Waldo prevents the Indiana state senate from making Pi 3.2 by pointing the fallacy of the reasoning of it."];             
 
 var temp = [];
 
