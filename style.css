@@ -1,26 +1,3 @@
-body {
-    background-color: #121212;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    color: #CEB888;
-    margin: 0;
-    padding: 0;
-}
-
-button {
-    border-color: #CEB888;
-    background-color: #ceb88800;
-    color: #CEB888;
-    width: 20%;
-    height: 15%;
-}
-
-button:hover {
-    background-color: #CEB888;
-    color: #121212;
-}
-
 .container { 
     height: 500px;
     width: 90%;
